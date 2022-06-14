@@ -107,7 +107,7 @@ h6 {
   width: 348px;
   height: 348px;
   position: relative;
-  top: -500px;
+  top: -630px;
   border-radius: 5px;
 }
 
@@ -235,15 +235,20 @@ footer {
   display: none;
 }
 
-h7 {
-  font-size: 1.5rem;
-  font-family: "Klee One", cursive;
-  color: #424242;
-}
-
 iframe {
   border-radius: 8px;
   width: 100%;
+}
+
+.containerr h3 {
+  font-family: "Klee One", cursive;
+  color: #424242;
+  font-size: 1.5rem;
+}
+
+.gridd img {
+  width: 100%;
+  border-radius: 15px;
 }
 
 @media (min-width: 600px) {
@@ -520,6 +525,12 @@ iframe {
     grid-template-columns: 1fr;
   }
 
+  .containerr h3 {
+    font-family: "Klee One", cursive;
+    color: #424242;
+    font-size: 1.5rem;
+  }
+
   .gridd {
     line-height: 1.5;
     column-count: 3;
@@ -577,11 +588,5 @@ iframe {
     padding: 10px;
     font-family: "Klee One", cursive;
     font-size: 13px;
-  }
-
-  h7 {
-    font-size: 1.5rem;
-    font-family: "Klee One", cursive;
-    color: #424242;
   }
 }
